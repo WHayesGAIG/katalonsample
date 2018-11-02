@@ -4,6 +4,7 @@
    <name>TS_SmokeTest</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-11-02T14:09:45</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +15,7 @@
       <guid>c1b04962-1245-4576-82ef-a6481dbcb856</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_GoogleSearch - ForceFailure</testCaseId>
+      <testCaseId>Test Cases/TC_GoogleSearch - ForceTCFailure</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>99eea77b-d33d-45ff-807c-09890b7f281e</guid>
