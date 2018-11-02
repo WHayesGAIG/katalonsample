@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_GoogleSearch - ForceTCFailure</name>
+   <name>TC_GoogleSearch - ForceFailure</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>7350a9b0-c3ec-4eac-b568-bb1faa56dc20</testCaseGuid>
