@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_SmokeWPassOnly" time="46" tests="2" failures="0" errors="0">
+   <testsuite name="TS_SmokeWPassOnly" tests="2" failures="0" errors="0" time="46" timestamp="2018-11-09 14:50:26" hostname="whayes - CVG-000211M-178.ga.afginc.com" id="Test Suites/TS_SmokeWPassOnly">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="L:\\git\\katalonsampleRedo\\katalonsample\\Reports\\TS_SmokeWPassOnly\\20181109_145009"/>
+         <property name="logFiles" value="L:\\git\\katalonsampleRedo\\katalonsample\\Reports\\TS_SmokeWPassOnly\\20181109_145009\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="whayes - CVG-000211M-178.ga.afginc.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.102.9.114"/>
+         <property name="sessionId" value="0ab24631a4ae3bed09ef4f716cf793d4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_MakeAppt" classname="Test Cases/TC_MakeAppt" status="PASSED">
+         <system-out><![CDATA[2018-11-09 14:50:31 - [TEST_CASE][PASSED] - Test Cases/TC_MakeAppt: Test Cases/TC_MakeAppt
+
+2018-11-09 14:50:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-09 14:50:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-09 14:50:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-09 14:50:56 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-09 14:50:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-09 14:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-09 14:50:56 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-09 14:50:57 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-09 14:50:57 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-09 14:50:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-09 14:50:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-11-09 14:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-11-09 14:50:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'  using regular expression
+
+2018-11-09 14:50:59 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'  using regular expression
+
+2018-11-09 14:50:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readm' is clicked on
+
+2018-11-09 14:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readm' is clicked on
+
+2018-11-09 14:50:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2018-11-09 14:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2018-11-09 14:50:59 - [TEST_STEP][PASSED] - setText: Text '14/08/2019' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_vi'
+
+2018-11-09 14:51:00 - [MESSAGE][PASSED] - Text '14/08/2019' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_vi'
+
+2018-11-09 14:51:00 - [TEST_STEP][PASSED] - setText: Text 'Comment for my appointment' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2018-11-09 14:51:00 - [MESSAGE][PASSED] - Text 'Comment for my appointment' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2018-11-09 14:51:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2018-11-09 14:51:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2018-11-09 14:51:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2018-11-09 14:51:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2018-11-09 14:51:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-09 14:51:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_GoogleSearch" classname="Test Cases/TC_GoogleSearch" status="PASSED">
+         <system-out><![CDATA[2018-11-09 14:51:02 - [TEST_CASE][PASSED] - Test Cases/TC_GoogleSearch: Test Cases/TC_GoogleSearch
+
+2018-11-09 14:51:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-09 14:51:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-09 14:51:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.google.com/?gws_rd=ssl' successfully
+
+2018-11-09 14:51:11 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/?gws_rd=ssl' successfully
+
+2018-11-09 14:51:11 - [TEST_STEP][PASSED] - setText: Text 'test management' is set on object 'Object Repository/Page_Google/input_YES_q'
+
+2018-11-09 14:51:12 - [MESSAGE][PASSED] - Text 'test management' is set on object 'Object Repository/Page_Google/input_YES_q'
+
+2018-11-09 14:51:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-09 14:51:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-09 14:50:26 - [TEST_SUITE][PASSED] - TS_SmokeWPassOnly: Test Cases/TC_GoogleSearch]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

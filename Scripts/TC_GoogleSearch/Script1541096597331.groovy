@@ -17,7 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.google.com/?gws_rd=ssl')
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service/button_Book Appointment'), 'test management')
+WebUI.setText(findTestObject('Page_Google/input_YES_q'), 'test management')
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
