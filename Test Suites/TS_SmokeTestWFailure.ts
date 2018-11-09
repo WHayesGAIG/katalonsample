@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_SmokeTest</name>
+   <name>TS_SmokeTestWFailure</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <lastRun>2018-11-02T14:09:45</lastRun>
